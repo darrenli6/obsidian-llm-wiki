@@ -16,6 +16,7 @@
 		"@radix-ui/react-slot": "^1.2.0",
 		"@tailwindcss/typography": "^0.5.16",
 		"@types/three": "^0.185.4",
+		"@types/mdast": "^4.0.4",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
 		"fuzzysort": "^3.1.0",

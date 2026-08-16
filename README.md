@@ -1,6 +1,6 @@
 # Obsidian LLM Wiki
 
-[English](#english) · [中文 README](./README-zh.md)
+[English](./README.md) · [中文](./README-zh.md)
 
 <a id="english"></a>
 
@@ -111,63 +111,3 @@ pnpm format       # Format the project with Biome
 ## License
 
 MIT License. See [LICENSE](./LICENSE).
-
-<a id="中文"></a>
-
-## 中文
-
-Obsidian LLM Wiki 是一个自托管知识库系统，可以把 Obsidian 笔记发布成可搜索的网站。它会将 Markdown 笔记转换为 Next.js 页面，并支持 Wiki 链接、全文搜索、主题切换和交互式三维知识图谱。
-
-项目地址：[github.com/darrenli6/obsidian-llm-wiki](https://github.com/darrenli6/obsidian-llm-wiki)
-
-## 功能
-
-- 根据 `content/` 目录结构自动生成页面路由。
-- 支持 Obsidian Markdown 和 MDX。
-- 支持 `[[AgenticRAG]]`、`[[AgenticRAG|相关概念]]` 等 Wiki 链接。
-- 支持全文模糊搜索。
-- 根据 `content/wiki` 中的 Wiki 链接自动生成 Three.js 三维知识图谱。
-- 支持节点标签、分类颜色、旋转、缩放、悬停反馈和点击跳转笔记。
-- 支持左侧 Directory 导航、浅色主题和深色主题。
-- 支持代码高亮、GFM 表格和 KaTeX 数学公式。
-
-## 快速开始
-
-```bash
-git clone https://github.com/darrenli6/obsidian-llm-wiki.git
-cd obsidian-llm-wiki
-pnpm install
-pnpm dev
-```
-
-打开 [http://localhost:3000](http://localhost:3000) 即可访问。
-
-将 Obsidian 笔记放入 `content/` 目录。设置 `publish: false` 可以隐藏笔记；没有设置该字段的笔记默认发布。
-
-## 知识图谱
-
-知识图谱读取 `content/wiki` 下的 Markdown 文件：
-
-- 文件会生成节点。
-- frontmatter 中的 `type` 决定节点分类和颜色。
-- `[[WikiLink]]` 会生成节点之间的关系。
-- 点击节点可以打开对应笔记。
-- 拖拽可以旋转三维场景，滚轮可以缩放。
-- 使用全屏按钮可以获得更大的图谱视图。
-
-支持的分类包括 `entity`、`concept`、`source` 和 `synthesis`。
-
-## 常用命令
-
-```bash
-pnpm dev          # 生成搜索索引并启动开发服务器
-pnpm build:index  # 生成搜索索引
-pnpm build        # 构建生产版本
-pnpm start        # 启动生产服务器
-pnpm lint         # 执行 Biome 检查
-pnpm format       # 使用 Biome 格式化
-```
-
-## 许可证
-
-本项目使用 MIT License，详见 [LICENSE](./LICENSE)。

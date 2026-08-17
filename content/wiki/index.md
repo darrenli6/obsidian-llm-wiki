@@ -1,0 +1,131 @@
+# Wiki 全局索引
+
+## Syntheses（综合创作）
+
+- [[达轮说-fde口播稿]] — 达轮说播客稿：FDE 岗位科普，痛点→刺激→好奇→远景→方案结构，约 2200 字，预计 12 分钟，含三大案例（央企投标、连锁餐饮、奶茶门店）
+- [[公众号-rag进化论]] — 公众号长文：Agentic RAG 科普，从传统 RAG 痛点到向量+图谱双路由架构，约 3800 字
+- [[知识星球-agentic-rag-20条]] — 知识星球帖子 20 条：Agentic RAG 全拆，含技术原理、选型、Claude Code 工作流，约 600 字/条
+- [[朋友圈-agentic-rag-12条]] — 朋友圈文案 12 条：Agentic RAG 混合风格，含观点、故事、概念区分、工具推荐
+- [[rag-工作原理-query]] — /query 回答：RAG 增强检索完整工作原理，含流水线、向量数据库、幻觉根源、GraphRAG/Agentic RAG 进化路径、RAG vs 微调决策
+- [[公众号-大模型幻觉与RAG]] — 公众号长文：大模型幻觉根源（Token 概率采样）+ RAG 补丁逻辑 + 管不住的四类场景 + 生产级应对方案，约 3000 字，面向非技术读者
+
+## Sources（来源摘要）
+
+- [[摘要-第257场-重讲讲香模型]] — 一堂第257场直播转录：十指讲香模型升级课，价值感鸿沟与讲香四步框架
+- [[摘要-第258场-ai基本功第一课]] — 一堂第258场直播转录：Feature思维框架首次公开，AI能力最小原子单位拆解与100个武器库
+- [[摘要-ai老兵文哲]] — AI老兵文哲视频号合辑：GraphRAG社区挖掘机制+微调成本结构+RAG vs 微调选型+幻觉根源+向量数据库原理
+- [[摘要-哥飞1]] — 哥飞北京线下分享会上半场：火山引擎即梦 2.5 升级、杰斯特 AI 出海百倍增长路径与 Google Ads 实战
+- [[摘要-哥飞2]] — 哥飞北京线下分享会下半场：安迪 30 万美金 SEO 方法论（话题权重/外链/PSE）与刘毅单产品聚焦经验
+- [[摘要-fde-roadmap-abhishek]] — Abhishek Veeramalla：FDE 8 步技术路线图，Python→FastAPI→SQL→Docker→云→Foundry→RAG→项目
+- [[摘要-fde-rolling-ai-podcast]] — Rolling AI 播客：FDE 在中国 4 年实践，15 天上线法则、三大坑、街头智慧与负能一线
+- [[摘要-ai-reveals-biggest-problem]] — Anthropic 研究揭示 AI 辅助编程导致技能侵蚀，调试能力退化最严重
+- [[摘要-260718-fde]] — FDE 岗位专题：三步落地法与隐性信息是核心门槛
+- [[摘要-260718-yiren-luyinjiyao]] — 亦仁内部分享：AI Agent 实践、生财有术转型战略与 F1 人才孵化
+- [[摘要-260715-songyu]] — 松月夜校分享：艺人公司商业模型、一鱼多吃内容工作流与 Obsidian 实战
+- [[摘要-extracting-knowledge-graphs]] — Thu Vu 教程：用 GPT-4o 从文本提取知识图谱，LangChain + Neo4j + Streamlit
+- [[摘要-rag-sql-agent-langgraph]] — AI RoundTable：LangGraph 构建多数据库 Agentic 系统，RAG+SQL Agent 路由与大型 SQL 库三策略
+- [[摘要-agentic-rag-knowledge-graph-cole-medin]] — Cole Medin：Agentic RAG 2.0，向量库+时序知识图谱（Graphiti）自动路由，Pydantic AI 实现，完整开源模板
+- [[摘要-claude-managed-agents-finance]] — Luke Finance：Claude 管理型 Agent 财务系统，Jamie 会议→Zapier→Google Sheets 自动更新 FP&A 模型，三层架构+活动日志去重
+- [[摘要-ai-finance-team-claude]] — Luke Finance：五角色 AI 财务团队（Revenue Ops/Financial Control/FP&A/Reporting/Coordinator），角色文件即逻辑，数据自动交接，一键生成 PPT
+- [[摘要-ai-native-services-company-yc]] — YC Charlie Warren：AI 原生服务公司完整手册，四市场特征、三创始人能力、方差控制、早期需求陷阱、AI 运营杠杆 P&L
+- [[摘要-rpc-naqvi-ai-future-of-finance]] — CFA Institute Mona Naqvi：AI 规模化逆转信息稀缺假设，四力框架+四种未来状态+认知趋同+治理三优先事项
+- [[摘要-梁文锋投资者交流会-2026-0520]] — 梁文锋 3h44min 投资者交流：克制哲学、AGI 主线路线图（不做视频/世界模型）、TileLang 突破、组织管理双轨制、中美 AI 差距判断
+- [[摘要-rag-survey-2312.10997]] — arXiv 2312.10997v5 RAG 综述：三代范式（Naive/Advanced/Modular RAG）、100+方法汇总、检索粒度/索引/查询优化、评估框架（RAGAS/ARES）、挑战与未来方向
+- [[摘要-gpt56-sol-vision]] — Roboflow 实测 GPT-5.6 Sol/Terra/Luna 视觉能力，Sol 被判定为 OpenAI 迄今最强视觉模型
+- [[摘要-anthropic-ceo-trust]] — Anthropic CEO Dario Amodei 回应 AI 反弹：本质是"信任危机"
+- [[摘要-gpt56-htb-benchmark]] — HTB-Challenger 基准测试 GPT-5.6 全家族漏洞发现/利用能力，Terra/Sol 曾拒绝安全提示
+- [[摘要-jensen-huang-open-weight]] — 黄仁勋 X 首帖与《Open Weights and American AI Leadership》公开信引发的开源权重 AI 之争
+- [[摘要-young-people-ai-ceos]] — 1000 名美国年轻人调查：九位顶级科技高管普遍不受信任
+- [[摘要-anthropic-apple-of-ai]] — TechRadar 分析：Anthropic 以最高定价实现行业最高营收，成"AI 界的 Apple"
+
+## Entities（实体）
+
+- [[一堂]] — 实战派教育机构，"体系派"课程体系，提出讲香基本功与Feature思维，自研YAI工具
+- [[YAI]] — 一堂自研AI工具/平台，承载各类AI教练Partner，Feature实践核心演练平台
+- [[AI老兵文哲]] — 微信视频号 AI 技术科普创作者，专注 RAG/微调/大模型应用底层原理讲解
+- [[哥飞]] — "哥飞的朋友们"出海社群创始人，Google SEO + AI 出海方法论核心传播者
+- [[火山引擎]] — 字节跳动云服务与 AI 能力平台，提供即梦视频生成模型及 API
+- [[即梦]] — 字节跳动 AI 视频生成 C 端产品，2.5 版本支持 50 个多模态参考输入，面向专业电商/广告场景
+- [[AbhishekVeeramalla]] — DevOps/云工程 YouTube 教育创作者，FDE 技术路线图出品人
+- [[MicrosoftFoundry]] — 微软一站式 AI 应用构建部署平台（原 Azure AI Foundry），FDE 核心工作平台
+- [[MicrosoftFrontierCompany]] — 微软 FDE 战略公司，投资 25 亿美元招募 6000 名 FDE
+- [[RollingAI]] — BCG 出身的中国 FDE 头部公司，服务 100+ 企业，平均客单价百万级
+- [[阿甘]] — Rolling AI 联合创始人，FDE 三能力框架与"激发善意"管理哲学提出者
+- [[刘开]] — Rolling AI 联合创始人，AI 生产力革命历史类比（电力革命）论述者
+- [[Palantir]] — FDE 概念起源公司，派驻工程师深入企业内部构建 AI 系统
+- [[Anthropic]] — AI 安全公司，Claude 模型研发者，发布 AI 对编程技能影响的实验研究
+- [[TwoMinutePapers]] — Dr. Koa Eher 主持的 AI 研究论文解读 YouTube 频道
+- [[亦仁]] — 生财有术创始人，深度 AI Agent 实践者，自我转型为"工程师"身份
+- [[生财有术]] — 创业者付费社区，正转型为面向 OPC 的 AI 工作台与 F1 人才孵化器
+- [[OpenAI]] — 全球 AI 模型公司，最早招募 FDE 岗位，提供 GPT-4o 结构化输出能力
+- [[飞书]] — 字节跳动企业协作平台，亦仁多 Agent 协同的主要运行环境
+- [[松月]] — 艺人公司从业者，内容 OPC 代表，播客《一把卷尺》主理人，收入为上班时 5 倍
+- [[原点学堂]] — 北京中关村 AI 社区与培训机构，毗邻清华北大，举办 AI 夜校分享
+- [[ThuVu]] — 数据科学 YouTube 创作者，知识图谱 + Python AI 教程
+- [[Neo4j]] — 主流图数据库公司，提供 LLM Knowledge Graph Builder 工具
+- [[LangChain]] — LLM 应用开发框架，提供 LLMGraphTransformer 知识图谱构建工具
+- [[LangGraph]] — LangChain 生态的 Agentic Graph 编排框架，支持多节点条件路由和工具调用
+- [[LangSmith]] — LangChain 官方 LLM 应用监控平台，可视化 Agent 执行链路，免费层够开发使用
+- [[ColeMedin]] — Agentic RAG + 知识图谱 YouTube 创作者，Dynamis AI 社区主理人，Claude Code 深度用户
+- [[Graphiti]] — Zep 出品开源时序知识图谱库，基于 Neo4j，用 LLM 自动提取实体关系，追踪知识随时间变化
+- [[Neon]] — PostgreSQL 托管平台，支持 pgvector 扩展作为向量库，有官方 MCP 服务器，免费 Tier
+- [[PydanticAI]] — 轻量 Python AI Agent 框架，类型安全，多 LLM 提供商兼容，LangChain 的轻量替代
+- [[LukeFinance]] — 财务自动化 YouTube 创作者，专注用 Claude 构建 AI 财务系统，代表作 AI 财务团队与管理型 Agent
+- [[Jamie]] — AI 会议智能平台，设备本地录音、GDPR 合规、EU 托管，通过 MCP 端点供 Agent 查询会议记录
+- [[Zapier]] — 无代码自动化平台，在 Claude Agent 场景作统一连接层，一个 MCP 连接覆盖 Google Sheets/Drive/Gmail
+- [[YCombinator]] — 全球顶级创业加速器，当前重点押注 AI 原生服务公司赛道（tax/audit/insurance/law）
+- [[CharlieWarren]] — YC Visiting Partner，AI 原生服务公司手册作者，提出方差/早期需求陷阱/AI运营杠杆等概念
+- [[Panacea]] — YC 在投 AI 原生服务公司，为 biotech/medtech 提供 FDA 监管 AI 服务，按结果定价
+- [[GeneralLegal]] — YC 在投 AI 原生律所，轮班制降低交付周期，法律经验+技术背景创始团队
+- [[MonaNaqvi]] — CFA Institute RPC Managing Director，AI 资本市场结构性变革框架作者
+- [[CFAInstitute]] — 全球投资管理专业标准机构，"重塑 AI 时代金融未来"旗舰研究系列发起者
+- [[梁文锋]] — DeepSeek 创始人，克制哲学与愿景驱动管理的实践者，AGI 主线判断者
+- [[DeepSeek]] — 中国 AI 公司，开源、极低推理成本、非利润最大化定价，专注 AGI 主线研究
+- [[GPT-5.6]] — OpenAI 2026 模型家族（Luna/Terra/Sol），Sol 为迄今最强视觉模型，参与 HTB 安全基准
+- [[Roboflow]] — 计算机视觉公司，提供数据集/标注/训练工具，发布 GPT-5.6 视觉实测报告
+- [[DarioAmodei]] — Anthropic CEO，提出 AI 反弹是"信任危机"
+- [[JensenHuang]] — NVIDIA CEO，签署公开信支持开源权重 AI
+- [[NVIDIA]] — AI 算力芯片巨头，CEO 主张闭源+开源前沿模型并存
+- [[HackTheBox]] — 网络安全训练/渗透平台，HTB-Challenger 基准的载体
+
+## Concepts（概念）
+
+- [[讲香基本功]] — 把找准的价值点转化为用户感受到的价值感的表达方法论（价值 ≠ 价值感，讲香填补鸿沟）
+- [[Feature思维]] — AI学习方法论：以"最小实践单位Feature"替代工具追逐，建立可迁移的能力复利体系（F型思维）
+- [[大模型微调]] — LLM Fine-tuning 成本结构（数据>GPU）、LoRA/QLoRA 显存计算，以及迭代流程中的关键卡点
+- [[RAG与微调决策框架]] — 场景化选型：动态数据→RAG，特定技能→微调，复杂场景→组合（含3个金融案例）
+- [[大模型幻觉]] — Token 概率采样的随机性是幻觉根本原因；RAG 减少但无法消除；LeCun/李飞飞的 AGI 争论
+- [[向量数据库]] — 为何需要向量数据库（O(N×D) 暴力搜索不可行）、余弦相似度、RAG 检索流程要点、检索粒度（Proposition/Small2Big）、混合检索（BM25+稠密向量）
+- [[AI出海]] — 以 AI SaaS 订阅产品面向海外用户变现的商业模式，核心渠道为 Google SEO，适合小团队/OPC
+- [[谷歌SEO出海策略]] — 出海 AI 产品获取谷歌自然流量的系统方法论：技术+品牌+内容集群+外链
+- [[话题权重]] — 谷歌评估网站在某话题下权威性的机制，通过内容集群建立，决定话题相关流量分发
+- [[程序化SEO]] — 用模板+数据批量生成大量长尾页面的 SEO 进阶策略，需以话题权重为前提
+- [[FDE技术路线图]] — DevOps/云工程师转型 FDE 的 8 步技术学习路径，从 Python 到 RAG 到实战项目
+- [[街头智慧]] — 一线员工积累的实战经验，AI 无法凭空产生，需 FDE 蒸馏进入 AI 系统
+- [[AI落地三大坑]] — 企业 AI 转型失败三大原因：CEO预期超现实、IT立项、激励未调整
+- [[负能一线]] — 放弃 SOP 管控，给每个一线员工配 AI 助手做本地最优决策的管理哲学
+- [[AI技能侵蚀]] — AI 辅助导致认知能力退化的现象，过度外包思考使调试等核心技能萎缩
+- [[FDE]] — Field Deployment Engineer，驻场帮企业落地 AI 的新型岗位，三步法：懂业务→翻译→搭 Agent
+- [[隐性信息]] — 藏在老员工经验和行业规矩里的真实需求，AI 落地的核心难点，FDE 价值所在
+- [[Agent]] — AI 代理人，能自主规划执行多步任务，支持连排（Pipeline）形成内容产线
+- [[MCP]] — Model Context Protocol，让 Agent 高效调用外部数据的协议，数据是 AI 时代核心资产
+- [[OPC]] — One Person Company，个体创业者，分内容 OPC 和产品 OPC，有四阶段成长模型
+- [[知识图谱]] — Knowledge Graph，以实体和关系为核心的结构化数据表示，LLM 时代构建成本大幅降低
+- [[GraphRAG]] — 用知识图谱增强 RAG，提升跨文档、多实体复杂查询的准确率
+- [[一鱼多吃]] — 内容 OPC 核心策略：一篇长文经 AI 切分输出多平台内容，降低边际创作成本
+- [[虚拟产品]] — 无库存数字产品，一人公司入门推荐形态，边际成本趋近于零
+- [[Obsidian]] — 本地 Markdown 知识库，AI 友好格式，配合 Claude Code 构成一人公司内容引擎
+- [[RAG与SQL-Agent决策框架]] — 决策指南：语义检索用 RAG，精确查询用 SQL Agent，两者可在同一 Agent 系统中共存
+- [[大型SQL数据库Agent策略]] — 大表场景三策略：列表传入→类别示例→LLM分类+Python映射（推荐），解决大表路由失准问题
+- [[AgenticRAG]] — Agent 自主决策检索策略（向量/图谱/混合），区别于 GraphRAG，是检索架构的哲学升级
+- [[Claude管理型Agent]] — Claude Managed Agents，持久化 Agent 系统，含运行环境/凭证保险库/活动日志去重，后台自主运行
+- [[AI财务团队架构]] — 角色文件驱动的多 Agent 财务协作架构，shared 上下文 + 数据交接模式 + 协调器统筹执行
+- [[AI原生服务公司]] — 直接交付结果而非卖工具的新创业形态，四市场特征+三创始人能力+产品即运营框架（YC手册）
+- [[AI运营杠杆]] — AI 服务公司 P&L 核心赌注：产品完善→COGS 下降→毛利从 30% 向 50%+ 软件级迈进
+- [[早期需求陷阱]] — AI 服务公司早期 Pilot 太多→被服务淹没→没时间建产品→困在人力模式
+- [[AI资本市场结构性变革框架]] — CFA Institute 四力框架：信息稀缺→智能丰裕，治理判断力成为新稀缺资源；四种未来状态+认知趋同风险
+- [[DeepSeek克制哲学]] — 主动克制对利润和市场份额的追求，认为越克制越能做成 AGI；开源/低定价/不跟大厂竞争均是体现
+- [[DeepSeek组织管理]] — 双轨制（正式<50%+自由探索>50%）、无 KPI、愿景不成文、不加班、无模仿对象
+- [[AGI技术路线图-梁文锋]] — 主线：训练→CoT→Agent→持续学习→模型自主提问；不做视频生成/世界模型；TileLang 替代 CUDA
+- [[AI信任危机]] — AI 行业公众信任下滑现象：年轻群体对 AI CEO 信任崩塌，Dario Amodei 称反弹本质是信任危机
+- [[开源权重AI]] — Open-Weight AI：公开模型权重可自由部署的模式，黄仁勋主张闭源+开源前沿并存，涉及安全/主权之争

@@ -1,5 +1,26 @@
 # Ingest 操作日志
 
+## [2026-08-18] ingest | AI News 日报（8 篇文章）
+
+- **来源文件**:
+  - `raw/01-articles/ai-news-2026-08-18-nvidia-openai-ohio-datacenter.md`
+  - `raw/01-articles/ai-news-2026-08-18-deepmind-weathernext.md`
+  - `raw/01-articles/ai-news-2026-08-18-llamacpp-v010.md`
+  - `raw/01-articles/ai-news-2026-08-18-gpt56-sol-price-cut.md`
+  - `raw/01-articles/ai-news-2026-08-18-israel-fake-think-tank.md`
+  - `raw/01-articles/ai-news-2026-08-18-fastai-returning-to-ai.md`
+  - `raw/01-articles/ai-news-2026-08-18-deepmind-sl2t.md`
+  - `raw/01-articles/ai-news-2026-08-18-openai-talent-exodus.md`
+- **变更**:
+  - 新增来源摘要 [[摘要-nvidia-openai-ohio-datacenter]], [[摘要-deepmind-weathernext]], [[摘要-llamacpp-v010]], [[摘要-gpt56-sol-price-cut]], [[摘要-israel-fake-think-tank]], [[摘要-fastai-returning-to-ai]], [[摘要-deepmind-sl2t]], [[摘要-openai-talent-exodus]]
+  - 新增实体 [[GoogleDeepMind]], [[SamAltman]], [[OpenRouter]], [[llama.cpp]], [[AnswerAI]]
+  - 更新实体 [[OpenAI]], [[NVIDIA]], [[GPT-5.6]]（增量合并 2026-08-18 新闻）
+  - 新增概念 [[LLM投毒]]
+  - 更新概念 [[AI信任危机]]（补充从业者内部反思视角）
+  - 更新 [[index.md]]
+- **冲突**: 无（本次为新建页面 + 既有页面增量合并，无矛盾；唯一需注意：llama.cpp v0.1.0 为误发标签，已如实记录）
+- **归档**: 八个源文件已移入 `raw/09-archive/01-articles/`
+
 ## [2026-08-17] ingest | AI News 日报（6 篇文章）
 
 - **来源文件**:

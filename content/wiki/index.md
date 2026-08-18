@@ -37,6 +37,14 @@
 - [[摘要-jensen-huang-open-weight]] — 黄仁勋 X 首帖与《Open Weights and American AI Leadership》公开信引发的开源权重 AI 之争
 - [[摘要-young-people-ai-ceos]] — 1000 名美国年轻人调查：九位顶级科技高管普遍不受信任
 - [[摘要-anthropic-apple-of-ai]] — TechRadar 分析：Anthropic 以最高定价实现行业最高营收，成"AI 界的 Apple"
+- [[摘要-nvidia-openai-ohio-datacenter]] — 英伟达为 OpenAI 俄亥俄州数据中心提供最高 1050 亿美元融资，较 2500 亿讨论值大幅缩减
+- [[摘要-deepmind-weathernext]] — DeepMind WeatherNext（Nature）：AI 气旋预报平均多争取 24 小时预警，相当于十年气象学进步，模型开源
+- [[摘要-llamacpp-v010]] — llama.cpp v0.1.0 为 GitHub Actions 误发标签，维护者澄清"请忽略"，官方 SemVer 即将就绪
+- [[摘要-gpt56-sol-price-cut]] — GPT-5.6 Sol 在 OpenRouter 降价 50%（2.5/15 美元每百万 token），1M 上下文
+- [[摘要-israel-fake-think-tank]] — 以色列假智库"汉诺威研究所"专为迎合 LLM 采信偏好撰写 100+ 报告，即"LLM 投毒"
+- [[摘要-fastai-returning-to-ai]] — fast.ai 联合创始人 Rachel Thomas 反 AI 情绪中重返 AI，加入 Answer.AI，主张人类判断力为中心
+- [[摘要-deepmind-sl2t]] — DeepMind SL2T 手语转文字模型首次进入消费产品（Pixel 11 Gboard/Live Transcribe），FLEURS-ASL 创纪录
+- [[摘要-openai-talent-exodus]] — OpenAI 高管离职潮（Dresser/Lightcap/Simo），8520 亿美元估值 IPO 前"巨大红旗"
 
 ## Entities（实体）
 
@@ -87,6 +95,11 @@
 - [[JensenHuang]] — NVIDIA CEO，签署公开信支持开源权重 AI
 - [[NVIDIA]] — AI 算力芯片巨头，CEO 主张闭源+开源前沿模型并存
 - [[HackTheBox]] — 网络安全训练/渗透平台，HTB-Challenger 基准的载体
+- [[GoogleDeepMind]] — Google 前沿 AI 研究实验室，WeatherNext 气旋预报与 SL2T 手语转文字的出品方
+- [[SamAltman]] — OpenAI CEO，8520 亿美元估值 IPO 筹备期的掌舵人，2023"the blip"事件亲历者
+- [[OpenRouter]] — 多模型 API 聚合路由平台，提供跨供应商价格/延迟/基准横向对比
+- [[llama.cpp]] — 开源 LLM 推理引擎（约 124k star），本地运行大模型的核心基础设施
+- [[AnswerAI]] — fast.ai 延续组织，代表作 SolveIt——允许用户直接编辑 AI 回答、人类留在决策环内
 
 ## Concepts（概念）
 
@@ -129,3 +142,4 @@
 - [[AGI技术路线图-梁文锋]] — 主线：训练→CoT→Agent→持续学习→模型自主提问；不做视频生成/世界模型；TileLang 替代 CUDA
 - [[AI信任危机]] — AI 行业公众信任下滑现象：年轻群体对 AI CEO 信任崩塌，Dario Amodei 称反弹本质是信任危机
 - [[开源权重AI]] — Open-Weight AI：公开模型权重可自由部署的模式，黄仁勋主张闭源+开源前沿并存，涉及安全/主权之争
+- [[LLM投毒]] — 批量制造符合 LLM 采信偏好的伪权威内容（假智库/伪报告）影响聊天机器人回答的实践

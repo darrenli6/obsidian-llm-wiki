@@ -22,3 +22,4 @@ LLM poisoning（LLM 投毒）：通过批量制造**符合 LLM 采信偏好**的
 - [[AI信任危机]] — 加剧的信任问题
 - [[OpenAI]] — ChatGPT 是被影响对象之一
 - [[摘要-israel-fake-think-tank]] — 来源
+- [[摘要-llms-txt]] — 相关议题：网站如何向 LLM 呈现自身内容

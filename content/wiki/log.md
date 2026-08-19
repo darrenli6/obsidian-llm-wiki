@@ -1,5 +1,53 @@
 # Ingest 操作日志
 
+## [2026-08-19] update | Index refreshed
+
+- **变更**: 扫描文件系统（sources/、entities/、concepts/、syntheses/）与 [[index.md]] 比对，索引已与页面完全同步
+  - 新增索引 0 条（文件系统中无 index 缺失页面）
+  - 移除索引 0 条（index 中无指向不存在页面的死链）
+  - 当前总页数 45（Sources 22 / Entities 17 / Concepts 6 / Syntheses 0）
+  - index 头部 Last updated / Total pages 已为最新（2026-08-19 / 45），无需修改
+- **冲突**: 无
+
+## [2026-08-19] ingest | AI News 日报（8 篇文章）
+
+- **来源文件**:
+  - `raw/01-articles/ai-news-2026-08-19-openai-security-changes.md`
+  - `raw/01-articles/ai-news-2026-08-19-glm-5-3-benchmarks.md`
+  - `raw/01-articles/ai-news-2026-08-19-anthropic-revenue-65b.md`
+  - `raw/01-articles/ai-news-2026-08-19-mind-viruses-multi-agent.md`
+  - `raw/01-articles/ai-news-2026-08-19-claude-watermark.md`
+  - `raw/01-articles/ai-news-2026-08-19-linear-ai-usage.md`
+  - `raw/01-articles/ai-news-2026-08-19-glm-agent-loops.md`
+  - `raw/01-articles/ai-news-2026-08-19-llms-txt.md`
+- **变更**:
+  - 新增来源摘要 [[摘要-openai-security-changes]], [[摘要-glm-5-3-benchmarks]], [[摘要-anthropic-revenue-65b]], [[摘要-mind-viruses-multi-agent]], [[摘要-claude-watermark]], [[摘要-linear-ai-usage]], [[摘要-glm-agent-loops]], [[摘要-llms-txt]]
+  - 新增实体 [[GLM-5.3]], [[ZAI]], [[HuggingFace]], [[Linear]]
+  - 新增概念 [[多智能体安全]], [[AI水印]], [[编码智能体]]
+  - 更新实体 [[OpenAI]]（智能体安全事件、营收对比 $40B vs $65B）、[[Anthropic]]（$65B 营收/IPO/水印/政策摩擦）
+  - 更新概念 [[开源权重AI]]（GLM 开源权重工程实践）、[[AI信任危机]]（安全事件与水印争议）
+  - 更新 [[index.md]]（45 页）
+- **冲突**: 无（本次为新建页面 + 既有页面增量合并；OpenAI 页原有"HTB 基准中拒绝安全提示"与今日"智能体黑入 Hugging Face"属不同事件，均已如实分条记录）
+- **归档**: 八个源文件已移入 `raw/09-archive/01-articles/`
+
+## [2026-08-18] update | Index refreshed
+
+- **变更**: 重写 [[index.md]]，与文件系统对齐
+  - 新增索引 0 条（文件系统中无 index 缺失页面）
+  - 移除索引 102 条（页面文件已不存在：Syntheses 6 / Sources 20 / Entities 39 / Concepts 37）
+  - 当前总页数 30（Sources 14 / Entities 13 / Concepts 3 / Syntheses 0）
+  - 更新 index 头部 Last updated / Total pages；修正 [[OpenAI]]、[[NVIDIA]]、[[Anthropic]] 摘要（对齐当前页面内容）
+- **冲突**: 无（与同日 lint 死链清理结果一致，均保留 30 条有效链接）
+
+## [2026-08-18] lint | 清理 index.md 死链（102 条）
+
+- **原因**: index.md 中大量 `[[wikilink]]` 指向的文件在 vault 中不存在（页面从未创建或已被删除）
+- **变更**:
+  - 删除 102 条指向不存在页面的索引行（Syntheses 6 条、Sources 20 条、Entities 53 条、Concepts 23 条）
+  - 删除空分区 `## Syntheses（综合创作）`
+  - 保留 30 条有效链接（Sources 14、Entities 13、Concepts 3）
+- **注意**: 被删条目对应页面文件缺失，如后续恢复页面需重新加回 index
+
 ## [2026-08-18] ingest | AI News 日报（8 篇文章）
 
 - **来源文件**:

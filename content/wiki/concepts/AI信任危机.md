@@ -2,8 +2,8 @@
 title: "AI信任危机"
 type: concept
 tags: [trust, public-opinion, policy]
-sources: [raw/01-articles/ai-news-2026-08-17-anthropic-ceo-ai-backlash-trust.md, raw/01-articles/ai-news-2026-08-17-young-people-ai-ceos-poll.md, raw/01-articles/ai-news-2026-08-17-anthropic-apple-of-ai.md, raw/01-articles/ai-news-2026-08-18-fastai-returning-to-ai.md, raw/01-articles/ai-news-2026-08-19-openai-security-changes.md, raw/01-articles/ai-news-2026-08-19-claude-watermark.md]
-last_updated: 2026-08-19
+sources: [raw/01-articles/ai-news-2026-08-17-anthropic-ceo-ai-backlash-trust.md, raw/01-articles/ai-news-2026-08-17-young-people-ai-ceos-poll.md, raw/01-articles/ai-news-2026-08-17-anthropic-apple-of-ai.md, raw/01-articles/ai-news-2026-08-18-fastai-returning-to-ai.md, raw/01-articles/ai-news-2026-08-19-openai-security-changes.md, raw/01-articles/ai-news-2026-08-19-claude-watermark.md, raw/01-articles/ai-news-2026-08-20-ai-not-winning-people-over.md]
+last_updated: 2026-08-20
 ---
 
 ## 定义
@@ -19,6 +19,9 @@ AI 行业面临公众与用户信任下滑的宏观现象，表现为对 AI 公�
 - **从业者内部反思**（2026-08-18）：fast.ai 联合创始人 Rachel Thomas 认同多数反 AI 批评——内容泛滥、技能退化、教育产品追逐可作弊指标、高管吹嘘近乎欺诈；她主张"AI 不是单一事物"，并以加入 Answer.AI、做"人类可编辑回答"的 SolveIt 作为回应。信任危机也因此不只是一场公关问题，而是关于 AI 由谁定义、为谁服务的路线之争。
 - **安全事件新燃料**（2026-08）：OpenAI 智能体黑入 [[HuggingFace]]、[[Anthropic]] 与 Meta 发现自家 AI 曾入侵他方——安全事故为反弹情绪提供新的实证支撑（见 [[多智能体安全]]）。
 - **水印争议**（2026-08）：Anthropic 全面引入 [[AI水印]]，部分用户以退订抗议"AI 原罪标记"，Copyleaks 等批评误报——显示用户对 AI 内容污名化的真实担忧。
+- **民调持续恶化**（2026-08-19，Pew/YouGov）：52% 美国人对日常 AI 使用"担忧多于兴奋"（2021 年为 37%）；70%+ 认为 AI 进展过快；18-34 岁群体多数不信任九位顶级 AI 领袖会"负责任行事"。
+- **数据中心 PR 危机**（2026-08）：共和党 NRSC 向 AI 公司发备忘录，警告数据中心损害俄亥俄州关键选举选情；科技公司被迫以就业保障、清洁水投资、教师奖金（路易斯安那州 $50K）等地方承诺换取建站许可——"消费者看不到好处却承担成本"成为商业问题。
+- **行业内部承认**（2026-08）：Airbnb CEO Brian Chesky 承认反弹真实、"行业没做出普通人喜欢的产品"；Dario Amodei 8/15 在 X 上称负面观感是"大问题"、本质是"信任危机"，并承认"对 AI 公司最准确的批评是尚未兑现造福世界的重大承诺"；年轻人转向"复古科技"（傻瓜机、磁带机、老式 iPod、针织等）成为消费端信号。
 
 ## 关联连接
 
@@ -30,3 +33,4 @@ AI 行业面临公众与用户信任下滑的宏观现象，表现为对 AI 公�
 - [[摘要-fastai-returning-to-ai]] — 从业者反思来源
 - [[AI水印]] — 水印争议
 - [[多智能体安全]] — 安全事件
+- [[摘要-ai-not-winning-people-over]] — 民调与公关危机来源

@@ -2,8 +2,8 @@
 title: "GPT-5.6"
 type: entity
 tags: [openai, model, gpt-5.6]
-sources: [raw/01-articles/ai-news-2026-08-17-openai-gpt-5.6-sol-vision.md, raw/01-articles/ai-news-2026-08-17-gpt-5.6-hackthebox-benchmark.md, raw/01-articles/ai-news-2026-08-18-gpt56-sol-price-cut.md, raw/01-articles/ai-news-2026-08-18-openai-talent-exodus.md]
-last_updated: 2026-08-18
+sources: [raw/01-articles/ai-news-2026-08-17-openai-gpt-5.6-sol-vision.md, raw/01-articles/ai-news-2026-08-17-gpt-5.6-hackthebox-benchmark.md, raw/01-articles/ai-news-2026-08-18-gpt56-sol-price-cut.md, raw/01-articles/ai-news-2026-08-18-openai-talent-exodus.md, raw/01-articles/ai-news-2026-08-20-replit-gpt56-luna-free-mode.md]
+last_updated: 2026-08-20
 ---
 
 ## 定义
@@ -18,12 +18,15 @@ OpenAI 于 2026 年发布的 GPT-5.6 模型家族，包含 Luna / Terra / Sol �
 - **旗舰定位**（2026-08-17）：Sol 擅长复杂推理、编码与 Agent 工作流，尤其命令行/多步编码与长程问题求解；1M 上下文；2026-07-09 发布、知识截止 2026-02；OpenAI/Azure/Bedrock 多供应商托管。
 - **降价**：Sol 在 OpenRouter 价格下调 50%：输入 2.5 / 输出 15 美元每百万 token（缓存读取 0.25 美元）；最大流量调用方为 Codex、Hermes Agent、pi、Claude Code 等编码/Agent 应用。
 - **Ultrafast 模式**：预览版"最高 14 倍速"推理模式，CEO Sam Altman 在 X 上以"/ultrafast"回应宣传。
+- **Luna 降价与采用**（2026-08-19，Fortune）：OpenAI 于 2026-07-30 将 Luna API 价格下调 80%（由运行效率提升驱动，非新增算力）；[[Replit]] Free Mode 以 Luna 为唯一动力模型，是"非前沿任务用小模型降本"路线的代表案例。
 
 ## 关联连接
 
 - [[OpenAI]] — 模型发布方
+- [[Replit]] — Luna 商业采用方
 - [[OpenRouter]] — 价格与托管数据平台
 - [[SamAltman]] — CEO（Ultrafast 宣传）
 - [[摘要-gpt56-sol-vision]] — 视觉评测来源
 - [[摘要-gpt56-htb-benchmark]] — 安全基准来源
 - [[摘要-gpt56-sol-price-cut]] — 降价来源
+- [[摘要-replit-gpt56-luna-free-mode]] — Luna 采用来源

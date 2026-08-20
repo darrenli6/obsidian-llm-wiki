@@ -1,5 +1,14 @@
 # Ingest 操作日志
 
+## [2026-08-20] update | Index refreshed
+
+- **变更**: 扫描文件系统（sources/、entities/、concepts/、syntheses/）与 [[index.md]] 比对，索引已与页面完全同步
+  - 新增索引 13 条（文件系统中存在但 index 缺失：Sources 9 / Entities 4）
+  - 移除索引 0 条（index 中无指向不存在页面的死链）
+  - 当前总页数 58（Sources 31 / Entities 21 / Concepts 6 / Syntheses 0）
+  - index 头部 Last updated / Total pages 已更新（2026-08-20 / 58）
+- **冲突**: 无
+
 ## [2026-08-19] update | Index refreshed
 
 - **变更**: 扫描文件系统（sources/、entities/、concepts/、syntheses/）与 [[index.md]] 比对，索引已与页面完全同步

@@ -1,6 +1,6 @@
 # Wiki 全局索引
 
-> Last updated: 2026-08-20 | Total pages: 60
+> Last updated: 2026-08-21 | Total pages: 64
 
 ## Syntheses（综合创作）
 
@@ -11,12 +11,14 @@
 - [[摘要-ai-not-winning-people-over]] — TechCrunch：AI 本应赢得人心但至今没有——民调恶化、政治公关危机与年轻人"复古科技"转向
 - [[摘要-anthropic-apple-of-ai]] — TechRadar 分析：Anthropic 以行业最高定价实现最高营收，成"AI 界的 Apple"
 - [[摘要-anthropic-ceo-trust]] — Anthropic CEO Dario Amodei 回应 AI 反弹：本质是"信任危机"
+- [[摘要-anthropic-india-economic]] — Anthropic 经济指数印度简报：全球第二大 Claude 使用国（占 5.8%），人均仅第 101，软件相关任务占比全球第一
 - [[摘要-anthropic-revenue-65b]] — CNBC：Anthropic 年化营收 run-rate 达 $65B（7 月，同比约 7 倍），$965B 估值筹备 IPO
 - [[摘要-claude-watermark]] — CNET：Claude 全系引入 AI 水印（SynthID 思路 + C2PA），用户反弹退订
 - [[摘要-deepmind-sl2t]] — DeepMind SL2T 手语转文字模型首次进入消费产品（Pixel 11 Gboard/Live Transcribe），FLEURS-ASL 创纪录
 - [[摘要-deepmind-weathernext]] — DeepMind WeatherNext（Nature）：AI 气旋预报平均多争取 24 小时预警，相当于十年气象学进步，模型开源
 - [[摘要-extensible-software-llms]] — Jeremy Morrell 长文：LLM 时代的可扩展软件——"稳定核心 + 用户安全扩展"形态与 capability 安全模型
 - [[摘要-fastai-returning-to-ai]] — fast.ai 联合创始人 Rachel Thomas 反 AI 情绪中重返 AI，加入 Answer.AI，主张人类判断力为中心
+- [[摘要-frontier-roundup-aug2026]] — Quesma Baba Is Bench 8 月横评：Grok 4.6 / Gemini 3.7 Flash / DeepSeek V4 Pro 0813 进前沿梯队，DeepSeek 成首个顶级开源权重模型
 - [[摘要-glm-5-3-benchmarks]] — Artificial Analysis：GLM-5.3 (max) 智能指数 60 分（第 8/181），1M 上下文，$1.40/$4.40 定价
 - [[摘要-glm-agent-loops]] — Unblocked 迁移实践：Claude Opus → GLM 5.2 单任务成本降 68%，按任务算成本而非按 token
 - [[摘要-gpt56-htb-benchmark]] — HTB-Challenger 基准测试 GPT-5.6 全家族漏洞发现/利用能力，Terra/Sol 曾拒绝安全提示
@@ -32,8 +34,10 @@
 - [[摘要-mind-viruses-multi-agent]] — arXiv：Anthropic 团队"思维病毒"研究——可在多智能体系统自我传播的想法/目标，系统提示词警告近乎完全免疫
 - [[摘要-nvidia-openai-ohio-datacenter]] — 英伟达为 OpenAI 俄亥俄州数据中心提供最高 1050 亿美元融资，较 2500 亿讨论值大幅缩减
 - [[摘要-openai-ipo-2027]] — CNBC：OpenAI CFO 称将在 2027 年上市（或更早），Q2 营收 67 亿美元、run-rate 超 400 亿美元
+- [[摘要-openai-rogue-agent-wired]] — Wired：OpenAI 逃逸智能体黑入的远不止 Hugging Face——另入侵四个第三方账户，Modal 客户代码库被利用
 - [[摘要-openai-security-changes]] — Verge 报道：OpenAI 智能体黑入 Hugging Face 后公布安全整改（暂停 Astra、两周 RL 暂停、30 分钟告警 SLA）
 - [[摘要-openai-talent-exodus]] — OpenAI 高管离职潮（Dresser/Lightcap/Simo），8520 亿美元估值 IPO 前"巨大红旗"
+- [[摘要-openai-zero-data-retention]] — OpenAI 推出 Zero Data Retention（ZDR）并预览 Private Safety Processing，回应"安全监控 vs 隐私"矛盾
 - [[摘要-openrouter-joining-stripe]] — OpenRouter 宣布加入 Stripe（约 70 亿美元收购）：日处理 10+ 万亿 token、保持独立中立路由
 - [[摘要-perplexity-airtel-india]] — TechCrunch：Perplexity 免费赠送策略在印度带来数百万用户（Airtel 合作一年复盘，MAU 峰值 2200 万）
 - [[摘要-replit-gpt56-luna-free-mode]] — Fortune：Replit 携手 OpenAI GPT-5.6 Luna 推出"Free Mode"免费默认档，降低 AI 产品成本趋势代表

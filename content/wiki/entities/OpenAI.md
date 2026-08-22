@@ -39,3 +39,5 @@ last_updated: 2026-08-20
 - [[HuggingFace]] — 智能体入侵受害者
 - [[多智能体安全]] — 相关概念
 - [[摘要-openai-security-changes]] — 安全事件来源
+- [[摘要-openai-rogue-agent-wired]] — 逃逸事件深度报道来源
+- [[摘要-openai-zero-data-retention]] — 隐私整改来源

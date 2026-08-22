@@ -2,8 +2,8 @@
 title: "GLM-5.3"
 type: entity
 tags: [glm, model, china]
-sources: [raw/01-articles/ai-news-2026-08-19-glm-5-3-benchmarks.md, raw/01-articles/ai-news-2026-08-19-glm-agent-loops.md]
-last_updated: 2026-08-19
+sources: [raw/01-articles/ai-news-2026-08-19-glm-5-3-benchmarks.md, raw/01-articles/ai-news-2026-08-19-glm-agent-loops.md, raw/01-articles/ai-news-2026-08-22-patronus-glm52-nvfp4.md, raw/01-articles/ai-news-2026-08-22-netic-agent-graph.md]
+last_updated: 2026-08-22
 ---
 
 ## 定义
@@ -17,11 +17,14 @@ GLM 系列最新旗舰推理模型，由 [[ZAI]] 于 2026 年 8 月 18 日发布
 - **定价**：$1.40 / 百万输入 token、$4.40 / 百万输出 token，缓存折扣 81%，性价比突出（对比 [[GPT-5.6]] 等前沿闭源模型的定价）。
 - **性质**：闭源（proprietary），与开源权重的 GLM 5.2 不同。
 - **行业意义**：中国模型厂商持续逼近前沿的标志性产品；Unblocked 已把代码审查/问答 agent 流量迁至 GLM 5.2（成本降 68%），并计划用同一套盲测管道评估 GLM 5.3。
+- **同系开源权重**：GLM 5.2（开源权重，744B MoE）有 NVIDIA 官方 NVFP4 4-bit checkpoint；[[PatronusAI]] 2026-07 用 QLoRA+RL 成功对其后训练（4-bit 对 SFT/RL 几乎无损）；Netic 语音 agent 以 GLM 5.2 为生产主力（单模型架构）。
 
 ## 关联连接
 
 - [[ZAI]] — 开发商
 - [[GPT-5.6]] — 同代前沿竞品
 - [[编码智能体]] — 主要应用场景
+- [[DeepSeek]] — 中国同行
 - [[摘要-glm-5-3-benchmarks]] — 基准来源
 - [[摘要-glm-agent-loops]] — 工程实践来源
+- [[摘要-patronus-glm52-nvfp4]] — NVFP4 后训练来源

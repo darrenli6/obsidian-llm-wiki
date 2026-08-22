@@ -1,5 +1,42 @@
 # Ingest 操作日志
 
+## [2026-08-22] update | Index refreshed
+
+- **变更**: 扫描文件系统（sources/、entities/、concepts/、syntheses/）与 [[index.md]] 比对，索引已与页面完全同步
+  - 新增索引 0 条（文件系统中无 index 缺失页面）
+  - 移除索引 0 条（index 中无指向不存在页面的死链）
+  - 当前总页数 83（Sources 45 / Entities 27 / Concepts 11 / Syntheses 0）
+  - index 头部 Last updated / Total pages 已为最新（2026-08-22 / 83），无需修改
+- **冲突**: 无
+
+## [2026-08-22] ingest | AI News 日报（6 篇文章）
+
+- **来源文件**:
+  - `raw/01-articles/ai-news-2026-08-22-nvidia-harness-arc-agi.md`
+  - `raw/01-articles/ai-news-2026-08-22-zdnet-ai-coding-addictive.md`
+  - `raw/01-articles/ai-news-2026-08-22-liquidai-lfm25-dspark.md`
+  - `raw/01-articles/ai-news-2026-08-22-patronus-glm52-nvfp4.md`
+  - `raw/01-articles/ai-news-2026-08-22-leiden-declaration-ai-math.md`
+  - `raw/01-articles/ai-news-2026-08-22-netic-agent-graph.md`
+- **变更**:
+  - 新增来源摘要 [[摘要-nvidia-harness-arc-agi]], [[摘要-zdnet-ai-coding-addictive]], [[摘要-liquidai-lfm25-dspark]], [[摘要-patronus-glm52-nvfp4]], [[摘要-leiden-declaration-ai-math]], [[摘要-netic-agent-graph]]
+  - 新增实体 [[LiquidAI]], [[PatronusAI]], [[Suno]], [[DeepSeek]]
+  - 新增概念 [[AgentHarness]], [[投机解码]], [[AI训练数据版权]]
+  - 更新实体 [[NVIDIA]]（AVO harness 研究）、[[ZAI]]（语音 agent 采用/NVFP4 生态）、[[GLM-5.3]]（开源权重同系）、[[llama.cpp]]（DSpark 集成）
+  - 更新概念 [[编码智能体]]（成瘾/倦怠、编排层之争）、[[AI信任危机]]（开发者倦怠、莱顿宣言）、[[开源权重AI]]（可训练性、端侧落地）
+  - 更新 [[index.md]]（83 页）
+- **冲突**: 无（"AI 编码成瘾 vs 生产力提升"为新增视角，与既有 Linear 正面数据分条并列，未覆盖旧结论）
+- **归档**: 6 个新源文件 + 17 个 08-20/08-21 已处理遗留文件一并移入 `raw/09-archive/01-articles/`
+
+## [2026-08-22] update | 索引同步与死链修复（补 08-21 遗留）
+
+- **变更**:
+  - 索引补录 4 个 Sources：[[摘要-ai-generated-mathematics]], [[摘要-autolith-lisp-agent]], [[摘要-cyberscoop-mid-tier-models]], [[摘要-roundhill-suno-anthropic]]（页面已存在但未入索引）
+  - 索引补录 2 个 Entities：[[Gemini 3.7 Flash]], [[Grok 4.6]]（同上）
+  - 新建 [[Suno]], [[DeepSeek]], [[AI训练数据版权]] 三个页面，修复 08-21 建页遗留的 3 个死链
+  - 为 4 个遗留孤立来源页补入链：[[OpenAI]]（rogue-agent/zero-data-retention）、[[Anthropic]]（india-economic）、[[编码智能体]]（autolith）
+- **冲突**: 无
+
 ## [2026-08-21] update | Index refreshed
 
 - **变更**: 扫描文件系统（sources/、entities/、concepts/、syntheses/）与 [[index.md]] 比对，索引已与页面完全同步
